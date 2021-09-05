@@ -1,6 +1,6 @@
 function Movie() {
   return (
-    <h1> Bad guy</h1>
+    <h1>Movie Page</h1>
   );
 }
 

@@ -1,6 +1,6 @@
 function Homepage() {
   return (
-    <h1>Be happy, please</h1>
+    <h1>Homepage</h1>
   );
 }
 
