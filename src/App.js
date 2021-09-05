@@ -7,10 +7,12 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Homepage} />
-        <Route exact path="/movie" component={Movie} />
-      </Switch>
+      <main>
+        <Switch>
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/movie" component={Movie} />
+        </Switch>
+      </main>
     </div>
   );
 }
