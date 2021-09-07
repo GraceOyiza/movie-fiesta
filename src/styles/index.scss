@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+.movie-card {
+  width: 215px;
+  height: 320px;
+}
+
+.movie-img {
+  object-fit: cover;
+  max-width: 100%;
+}

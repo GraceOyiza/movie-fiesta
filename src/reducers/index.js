@@ -1,14 +1,6 @@
 import { combineReducers } from 'redux';
-
-export const testReducer = (state = 'Initial state', { type }) => {
-  switch (type) {
-    case 'test':
-      return 'TEST';
-    default:
-      return state;
-  }
-};
+import moviesReducer from './movies';
 
 export default combineReducers({
-  testState: testReducer,
+  movies: moviesReducer,
 });
