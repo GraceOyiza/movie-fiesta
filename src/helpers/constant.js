@@ -11,8 +11,8 @@ export const urls = {
   genresUrl: `/genre/movie/list?api_key=${REACT_APP_TMBD_API_KEY}&language=en-US`,
 };
 
-// export const youtubeOptions = {
-//   height: '450',
-//   width: '100%',
-//   autoplay: 1,
-// };
+export const youtubeOptions = {
+  height: '450',
+  width: '100%',
+  autoplay: 1,
+};

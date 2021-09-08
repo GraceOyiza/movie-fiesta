@@ -1,2 +1,3 @@
 export const GET_MOVIES = 'GET_MOVIES';
-export const SET_FILTER = 'SET_FILTER';
+export const FILTER_MOVIE = 'FILTER_MOVIE';
+export const GET_GENRES = 'GET_GENRES';
