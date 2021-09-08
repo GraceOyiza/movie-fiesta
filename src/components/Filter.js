@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Filter({ handleFilter, genres, allGenres }) {
-  console.log(genres, allGenres);
   const genreOptions = [...genres].map((id) => (
     allGenres?.find((gen) => gen.id === id)
   )).filter((item) => item);

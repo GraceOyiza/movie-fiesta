@@ -86,7 +86,6 @@ function MovieRow({
     return true;
   };
   const allMovies = filterParam.toString() === '0' ? movies : setMoviesToDisplay();
-  console.log('All genres', allGenres);
   return (
     <div className="container">
       <section id={id}>

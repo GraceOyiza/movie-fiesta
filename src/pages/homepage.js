@@ -14,7 +14,6 @@ const HomePage = ({ genres, setGenres }) => {
       return genres.genres;
     };
     const res = await fetchGenres();
-    console.log('RESULT HERE', res);
     setGenres(res);
   }, []);
   return (
