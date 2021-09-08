@@ -34,7 +34,6 @@ function MovieRow({
   useEffect(async () => {
     const fetchMovies = async () => {
       const { data: { results } } = await fetch.get(moviesUrl);
-      
 
       return results.map((movie) => ({
         id: movie.id,
