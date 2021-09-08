@@ -1,6 +1,6 @@
-import { GET_MOVIES } from './type';
+import { SET_MOVIE } from './type';
 
 export default (movie) => ({
-  type: GET_MOVIES,
+  type: SET_MOVIE,
   payload: movie,
 });

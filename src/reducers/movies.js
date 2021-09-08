@@ -1,8 +1,8 @@
-import { GET_MOVIES } from '../actions/type';
+import { SET_MOVIE } from '../actions/type';
 
-export default (state = [], { type, payload }) => {
+export default (state = {}, { type, payload }) => {
   switch (type) {
-    case GET_MOVIES:
+    case SET_MOVIE:
       return payload;
     default:
       return state;

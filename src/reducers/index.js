@@ -4,7 +4,7 @@ import filterReducer from './filter';
 import genreReducer from './genre';
 
 export default combineReducers({
-  movies: moviesReducer,
+  movie: moviesReducer,
   filter: filterReducer,
   genres: genreReducer,
 });
