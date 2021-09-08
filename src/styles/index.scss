@@ -1,11 +1,25 @@
-@import "~bootstrap/scss/bootstrap";
+@import './reset.scss';
+@import './default.scss';
+@import './Navbar.scss';
+@import './MovieCard.scss';
+@import './Scrollbar.scss';
+@import './headings.scss';
+@import './VideoPage.scss';
 
-.movie-card {
-  width: 215px;
-  height: 320px;
+body {
+  overflow-x: hidden;
 }
 
-.movie-img {
-  object-fit: cover;
-  max-width: 100%;
+button {
+  margin: 10px;
+}
+
+.MuiButton-outlinedSecondary {
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.makeStyles-bg-16 .MuiButton-outlinedSecondary {
+  color: red !important;
+  border: 1px solid #fff !important;
 }
