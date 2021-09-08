@@ -1,6 +1,9 @@
-export const imageBaseUrl = 'https://image.tmdb.org/t/p/original';
+import runtimeEnv from '@mars/heroku-js-runtime-env';
 
-const { REACT_APP_TMBD_API_KEY } = process.env;
+export const imageBaseUrl = 'https://image.tmdb.org/t/p/original';
+const env = runtimeEnv();
+
+const { REACT_APP_TMBD_API_KEY } = env;
 export const urls = {
   originals: `/discover/tv?api_key=${REACT_APP_TMBD_API_KEY}&with_networks=213`,
   moviePopular: `/movie/popular?api_key=${REACT_APP_TMBD_API_KEY}&language=en-US&page=1`,
