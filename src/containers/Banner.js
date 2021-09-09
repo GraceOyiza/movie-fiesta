@@ -46,11 +46,14 @@ export const Banner = ({ updateMovie }) => {
     history.push('/movie');
   };
 
-  const bgImg = imageBaseUrl + movie?.backdrop_path;
+  let bgLink = '';
+  if (imageBaseUrl && movie) {
+    bgLink = `url('${imageBaseUrl + movie?.backdrop_path}') no-repeat center`;
+  }
 
   const styles = makeStyles((theme) => ({
     bg: {
-      background: `url('${bgImg}') no-repeat center`,
+      background: bgLink,
       backgroundSize: 'cover',
       width: '100%',
       height: '600px',

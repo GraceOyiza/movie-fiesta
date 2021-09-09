@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import MovieBanner from '../components/Banner';
+import MovieBanner from '../containers/Banner';
 import MovieRow from '../containers/MovieRow';
 import { urls } from '../helpers/constant';
 import fetchData from '../helpers/request';

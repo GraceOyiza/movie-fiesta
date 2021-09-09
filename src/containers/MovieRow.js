@@ -3,7 +3,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { connect } from 'react-redux';
 import Youtube from 'react-youtube';
 import PropTypes from 'prop-types';
-import Card from '../components/MovieCard';
+import Card from './MovieCard';
 import Filter from '../components/Filter';
 import fetch from '../helpers/request';
 import { imageBaseUrl, youtubeOptions } from '../helpers/constant';
@@ -89,7 +89,7 @@ function MovieRow({
   return (
     <div className="container">
       <section id={id}>
-        <Grid className={classes.heading} container justify="space-between" alignItems="center">
+        <Grid className={classes.heading} container justifyContent="space-between" alignItems="center">
           <Grid item>
             <h5 className="section__heading">{title}</h5>
           </Grid>
@@ -138,7 +138,7 @@ MovieRow.propTypes = {
 };
 
 const mapStateToProps = (state) => ({
-  filterParam: state.filter,
+  filterParam: parseInt(state.filter, 10),
 });
 
 const mapDispatchToProps = (dispatch) => ({
