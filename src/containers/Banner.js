@@ -43,7 +43,7 @@ export const Banner = ({ updateMovie }) => {
       id: movie.id,
     };
     updateMovie(bannerMovie);
-    history.push('/movie');
+    history.push(`/${movie.id}`);
   };
 
   let bgLink = '';

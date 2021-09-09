@@ -14,7 +14,7 @@ export const MovieCard = ({
     setMovie({
       id, imgUrl, name, overview, releaseDate, genres,
     });
-    history.push('/movie');
+    history.push(`/${id}`);
   };
 
   return (
