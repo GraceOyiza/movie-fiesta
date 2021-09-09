@@ -1,5 +1,5 @@
 import { Button } from '@material-ui/core';
-import { MovieCard } from '../../components/MovieCard';
+import { MovieCard } from '../../containers/MovieCard';
 import shallowWrapper from '../testSetup';
 
 describe('Movie Card', () => {

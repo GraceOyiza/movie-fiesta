@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import MovieBanner from '../containers/Banner';
-import MovieRow from '../containers/MovieRow';
+import MovieBanner from './Banner';
+import MovieRow from './MovieRow';
 import { urls } from '../helpers/constant';
 import fetchData from '../helpers/request';
 import setGenres from '../actions/genres';

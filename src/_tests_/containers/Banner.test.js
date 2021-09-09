@@ -1,7 +1,7 @@
 import { Typography, Button } from '@material-ui/core';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import Enzyme, { mount } from 'enzyme';
-import { Banner } from '../../components/Banner';
+import { Banner } from '../../containers/Banner';
 
 Enzyme.configure({ adapter: new Adapter() });
 

@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import HomePage from './pages/homepage';
-import MoviePage from './pages/Video';
-import NotFound from './pages/NotFound';
+import HomePage from './containers/homepage';
+import MoviePage from './containers/Video';
+import NotFound from './components/NotFound';
 import NavBar from './components/Navbar';
 
 const App = () => (

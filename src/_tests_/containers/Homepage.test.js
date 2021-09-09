@@ -4,7 +4,7 @@ import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 import Enzyme, { shallow } from 'enzyme';
-import HomePage from '../../pages/homepage';
+import HomePage from '../../containers/homepage';
 
 Enzyme.configure({ adapter: new Adapter() });
 

@@ -1,5 +1,5 @@
 import shallow from '../testSetup';
-import NotFound from '../../pages/NotFound';
+import NotFound from '../../components/NotFound';
 
 describe('NOT Found PAge', () => {
   const page = shallow(NotFound);
