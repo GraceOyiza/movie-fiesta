@@ -1,3 +1,4 @@
+### Catalogue of Dog Clothes
 # MOVIE-FIESTA
 This application obtains data from TMDB via the TMDB API. Movie-fiesta is a web application that displays Movies and TV series based on different categories. Each category can be filtered based on genre.
 
@@ -41,7 +42,7 @@ This application obtains data from TMDB via the TMDB API. Movie-fiesta is a web 
 | enzyme                          | Test components, and write assertions                            |
 | enzyme-adapter-react-16         | React adapter for enzyme                                         |
 | stylelint                       | Lints Css                                                        |
-| stylelint-config-standard       | Advanced linting configoration for css                           |
+| stylelint-config-standard       | Advanced linting configuration for css                           |
 | stylelint-csstree-validator     | Advanced linting validation for css                              |
 | stylelint-scss                  | Adds additional SCSS-related rules to StyleLint                  |
 
